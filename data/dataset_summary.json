@@ -1,0 +1,811 @@
+{
+  "random_seed": 42,
+  "num_training_episodes": 80,
+  "num_testing_episodes": 20,
+  "num_time_steps_per_day": 96,
+  "time_interval_hours": 0.25,
+  "train_summary": [
+    {
+      "episode": 0,
+      "num_evs": 6,
+      "max_solar_kw": 16.922,
+      "avg_price": 0.16724062500000003,
+      "profile_file": "episode_000_profile.csv",
+      "evs_file": "episode_000_evs.csv"
+    },
+    {
+      "episode": 1,
+      "num_evs": 5,
+      "max_solar_kw": 12.406,
+      "avg_price": 0.16703958333333335,
+      "profile_file": "episode_001_profile.csv",
+      "evs_file": "episode_001_evs.csv"
+    },
+    {
+      "episode": 2,
+      "num_evs": 5,
+      "max_solar_kw": 17.096,
+      "avg_price": 0.1669635416666667,
+      "profile_file": "episode_002_profile.csv",
+      "evs_file": "episode_002_evs.csv"
+    },
+    {
+      "episode": 3,
+      "num_evs": 5,
+      "max_solar_kw": 17.023,
+      "avg_price": 0.16737916666666663,
+      "profile_file": "episode_003_profile.csv",
+      "evs_file": "episode_003_evs.csv"
+    },
+    {
+      "episode": 4,
+      "num_evs": 6,
+      "max_solar_kw": 10.656,
+      "avg_price": 0.1679614583333333,
+      "profile_file": "episode_004_profile.csv",
+      "evs_file": "episode_004_evs.csv"
+    },
+    {
+      "episode": 5,
+      "num_evs": 4,
+      "max_solar_kw": 11.109,
+      "avg_price": 0.16688854166666667,
+      "profile_file": "episode_005_profile.csv",
+      "evs_file": "episode_005_evs.csv"
+    },
+    {
+      "episode": 6,
+      "num_evs": 4,
+      "max_solar_kw": 17.719,
+      "avg_price": 0.16734791666666668,
+      "profile_file": "episode_006_profile.csv",
+      "evs_file": "episode_006_evs.csv"
+    },
+    {
+      "episode": 7,
+      "num_evs": 6,
+      "max_solar_kw": 15.81,
+      "avg_price": 0.16801249999999998,
+      "profile_file": "episode_007_profile.csv",
+      "evs_file": "episode_007_evs.csv"
+    },
+    {
+      "episode": 8,
+      "num_evs": 5,
+      "max_solar_kw": 16.927,
+      "avg_price": 0.16714479166666663,
+      "profile_file": "episode_008_profile.csv",
+      "evs_file": "episode_008_evs.csv"
+    },
+    {
+      "episode": 9,
+      "num_evs": 4,
+      "max_solar_kw": 16.991,
+      "avg_price": 0.16788854166666667,
+      "profile_file": "episode_009_profile.csv",
+      "evs_file": "episode_009_evs.csv"
+    },
+    {
+      "episode": 10,
+      "num_evs": 5,
+      "max_solar_kw": 18.475,
+      "avg_price": 0.16747916666666665,
+      "profile_file": "episode_010_profile.csv",
+      "evs_file": "episode_010_evs.csv"
+    },
+    {
+      "episode": 11,
+      "num_evs": 6,
+      "max_solar_kw": 16.559,
+      "avg_price": 0.16799895833333334,
+      "profile_file": "episode_011_profile.csv",
+      "evs_file": "episode_011_evs.csv"
+    },
+    {
+      "episode": 12,
+      "num_evs": 5,
+      "max_solar_kw": 10.21,
+      "avg_price": 0.16681041666666666,
+      "profile_file": "episode_012_profile.csv",
+      "evs_file": "episode_012_evs.csv"
+    },
+    {
+      "episode": 13,
+      "num_evs": 4,
+      "max_solar_kw": 16.785,
+      "avg_price": 0.16781458333333332,
+      "profile_file": "episode_013_profile.csv",
+      "evs_file": "episode_013_evs.csv"
+    },
+    {
+      "episode": 14,
+      "num_evs": 6,
+      "max_solar_kw": 16.732,
+      "avg_price": 0.167646875,
+      "profile_file": "episode_014_profile.csv",
+      "evs_file": "episode_014_evs.csv"
+    },
+    {
+      "episode": 15,
+      "num_evs": 6,
+      "max_solar_kw": 14.93,
+      "avg_price": 0.16719166666666666,
+      "profile_file": "episode_015_profile.csv",
+      "evs_file": "episode_015_evs.csv"
+    },
+    {
+      "episode": 16,
+      "num_evs": 4,
+      "max_solar_kw": 17.113,
+      "avg_price": 0.16680520833333334,
+      "profile_file": "episode_016_profile.csv",
+      "evs_file": "episode_016_evs.csv"
+    },
+    {
+      "episode": 17,
+      "num_evs": 4,
+      "max_solar_kw": 11.253,
+      "avg_price": 0.16836458333333335,
+      "profile_file": "episode_017_profile.csv",
+      "evs_file": "episode_017_evs.csv"
+    },
+    {
+      "episode": 18,
+      "num_evs": 5,
+      "max_solar_kw": 14.603,
+      "avg_price": 0.167359375,
+      "profile_file": "episode_018_profile.csv",
+      "evs_file": "episode_018_evs.csv"
+    },
+    {
+      "episode": 19,
+      "num_evs": 5,
+      "max_solar_kw": 12.591,
+      "avg_price": 0.16763645833333332,
+      "profile_file": "episode_019_profile.csv",
+      "evs_file": "episode_019_evs.csv"
+    },
+    {
+      "episode": 20,
+      "num_evs": 5,
+      "max_solar_kw": 15.969,
+      "avg_price": 0.16806875,
+      "profile_file": "episode_020_profile.csv",
+      "evs_file": "episode_020_evs.csv"
+    },
+    {
+      "episode": 21,
+      "num_evs": 6,
+      "max_solar_kw": 18.859,
+      "avg_price": 0.16759999999999997,
+      "profile_file": "episode_021_profile.csv",
+      "evs_file": "episode_021_evs.csv"
+    },
+    {
+      "episode": 22,
+      "num_evs": 6,
+      "max_solar_kw": 17.326,
+      "avg_price": 0.167334375,
+      "profile_file": "episode_022_profile.csv",
+      "evs_file": "episode_022_evs.csv"
+    },
+    {
+      "episode": 23,
+      "num_evs": 6,
+      "max_solar_kw": 17.652,
+      "avg_price": 0.16800833333333334,
+      "profile_file": "episode_023_profile.csv",
+      "evs_file": "episode_023_evs.csv"
+    },
+    {
+      "episode": 24,
+      "num_evs": 6,
+      "max_solar_kw": 10.34,
+      "avg_price": 0.16673645833333336,
+      "profile_file": "episode_024_profile.csv",
+      "evs_file": "episode_024_evs.csv"
+    },
+    {
+      "episode": 25,
+      "num_evs": 6,
+      "max_solar_kw": 15.858,
+      "avg_price": 0.16684583333333333,
+      "profile_file": "episode_025_profile.csv",
+      "evs_file": "episode_025_evs.csv"
+    },
+    {
+      "episode": 26,
+      "num_evs": 5,
+      "max_solar_kw": 17.477,
+      "avg_price": 0.16837291666666668,
+      "profile_file": "episode_026_profile.csv",
+      "evs_file": "episode_026_evs.csv"
+    },
+    {
+      "episode": 27,
+      "num_evs": 4,
+      "max_solar_kw": 14.322,
+      "avg_price": 0.16741145833333335,
+      "profile_file": "episode_027_profile.csv",
+      "evs_file": "episode_027_evs.csv"
+    },
+    {
+      "episode": 28,
+      "num_evs": 4,
+      "max_solar_kw": 14.06,
+      "avg_price": 0.16729166666666664,
+      "profile_file": "episode_028_profile.csv",
+      "evs_file": "episode_028_evs.csv"
+    },
+    {
+      "episode": 29,
+      "num_evs": 6,
+      "max_solar_kw": 18.504,
+      "avg_price": 0.16666249999999996,
+      "profile_file": "episode_029_profile.csv",
+      "evs_file": "episode_029_evs.csv"
+    },
+    {
+      "episode": 30,
+      "num_evs": 6,
+      "max_solar_kw": 18.736,
+      "avg_price": 0.16665416666666666,
+      "profile_file": "episode_030_profile.csv",
+      "evs_file": "episode_030_evs.csv"
+    },
+    {
+      "episode": 31,
+      "num_evs": 5,
+      "max_solar_kw": 17.523,
+      "avg_price": 0.16717291666666667,
+      "profile_file": "episode_031_profile.csv",
+      "evs_file": "episode_031_evs.csv"
+    },
+    {
+      "episode": 32,
+      "num_evs": 6,
+      "max_solar_kw": 14.296,
+      "avg_price": 0.16669479166666668,
+      "profile_file": "episode_032_profile.csv",
+      "evs_file": "episode_032_evs.csv"
+    },
+    {
+      "episode": 33,
+      "num_evs": 6,
+      "max_solar_kw": 12.836,
+      "avg_price": 0.16737604166666667,
+      "profile_file": "episode_033_profile.csv",
+      "evs_file": "episode_033_evs.csv"
+    },
+    {
+      "episode": 34,
+      "num_evs": 4,
+      "max_solar_kw": 15.504,
+      "avg_price": 0.16781041666666666,
+      "profile_file": "episode_034_profile.csv",
+      "evs_file": "episode_034_evs.csv"
+    },
+    {
+      "episode": 35,
+      "num_evs": 4,
+      "max_solar_kw": 17.894,
+      "avg_price": 0.16674166666666665,
+      "profile_file": "episode_035_profile.csv",
+      "evs_file": "episode_035_evs.csv"
+    },
+    {
+      "episode": 36,
+      "num_evs": 5,
+      "max_solar_kw": 9.978,
+      "avg_price": 0.1688239583333333,
+      "profile_file": "episode_036_profile.csv",
+      "evs_file": "episode_036_evs.csv"
+    },
+    {
+      "episode": 37,
+      "num_evs": 5,
+      "max_solar_kw": 16.193,
+      "avg_price": 0.16618541666666667,
+      "profile_file": "episode_037_profile.csv",
+      "evs_file": "episode_037_evs.csv"
+    },
+    {
+      "episode": 38,
+      "num_evs": 6,
+      "max_solar_kw": 17.522,
+      "avg_price": 0.16713645833333332,
+      "profile_file": "episode_038_profile.csv",
+      "evs_file": "episode_038_evs.csv"
+    },
+    {
+      "episode": 39,
+      "num_evs": 5,
+      "max_solar_kw": 15.815,
+      "avg_price": 0.167209375,
+      "profile_file": "episode_039_profile.csv",
+      "evs_file": "episode_039_evs.csv"
+    },
+    {
+      "episode": 40,
+      "num_evs": 6,
+      "max_solar_kw": 12.902,
+      "avg_price": 0.1675875,
+      "profile_file": "episode_040_profile.csv",
+      "evs_file": "episode_040_evs.csv"
+    },
+    {
+      "episode": 41,
+      "num_evs": 4,
+      "max_solar_kw": 15.208,
+      "avg_price": 0.16831770833333334,
+      "profile_file": "episode_041_profile.csv",
+      "evs_file": "episode_041_evs.csv"
+    },
+    {
+      "episode": 42,
+      "num_evs": 5,
+      "max_solar_kw": 16.567,
+      "avg_price": 0.1673,
+      "profile_file": "episode_042_profile.csv",
+      "evs_file": "episode_042_evs.csv"
+    },
+    {
+      "episode": 43,
+      "num_evs": 6,
+      "max_solar_kw": 17.541,
+      "avg_price": 0.1674,
+      "profile_file": "episode_043_profile.csv",
+      "evs_file": "episode_043_evs.csv"
+    },
+    {
+      "episode": 44,
+      "num_evs": 6,
+      "max_solar_kw": 18.736,
+      "avg_price": 0.16811875,
+      "profile_file": "episode_044_profile.csv",
+      "evs_file": "episode_044_evs.csv"
+    },
+    {
+      "episode": 45,
+      "num_evs": 4,
+      "max_solar_kw": 13.076,
+      "avg_price": 0.16852187500000002,
+      "profile_file": "episode_045_profile.csv",
+      "evs_file": "episode_045_evs.csv"
+    },
+    {
+      "episode": 46,
+      "num_evs": 4,
+      "max_solar_kw": 16.895,
+      "avg_price": 0.166809375,
+      "profile_file": "episode_046_profile.csv",
+      "evs_file": "episode_046_evs.csv"
+    },
+    {
+      "episode": 47,
+      "num_evs": 4,
+      "max_solar_kw": 6.287,
+      "avg_price": 0.16784687499999998,
+      "profile_file": "episode_047_profile.csv",
+      "evs_file": "episode_047_evs.csv"
+    },
+    {
+      "episode": 48,
+      "num_evs": 6,
+      "max_solar_kw": 17.819,
+      "avg_price": 0.16790520833333336,
+      "profile_file": "episode_048_profile.csv",
+      "evs_file": "episode_048_evs.csv"
+    },
+    {
+      "episode": 49,
+      "num_evs": 4,
+      "max_solar_kw": 14.797,
+      "avg_price": 0.16684479166666666,
+      "profile_file": "episode_049_profile.csv",
+      "evs_file": "episode_049_evs.csv"
+    },
+    {
+      "episode": 50,
+      "num_evs": 4,
+      "max_solar_kw": 18.431,
+      "avg_price": 0.16727604166666668,
+      "profile_file": "episode_050_profile.csv",
+      "evs_file": "episode_050_evs.csv"
+    },
+    {
+      "episode": 51,
+      "num_evs": 6,
+      "max_solar_kw": 16.216,
+      "avg_price": 0.16661458333333334,
+      "profile_file": "episode_051_profile.csv",
+      "evs_file": "episode_051_evs.csv"
+    },
+    {
+      "episode": 52,
+      "num_evs": 6,
+      "max_solar_kw": 17.387,
+      "avg_price": 0.1677364583333333,
+      "profile_file": "episode_052_profile.csv",
+      "evs_file": "episode_052_evs.csv"
+    },
+    {
+      "episode": 53,
+      "num_evs": 6,
+      "max_solar_kw": 18.042,
+      "avg_price": 0.16679375,
+      "profile_file": "episode_053_profile.csv",
+      "evs_file": "episode_053_evs.csv"
+    },
+    {
+      "episode": 54,
+      "num_evs": 4,
+      "max_solar_kw": 17.107,
+      "avg_price": 0.16755833333333334,
+      "profile_file": "episode_054_profile.csv",
+      "evs_file": "episode_054_evs.csv"
+    },
+    {
+      "episode": 55,
+      "num_evs": 6,
+      "max_solar_kw": 18.859,
+      "avg_price": 0.16824375,
+      "profile_file": "episode_055_profile.csv",
+      "evs_file": "episode_055_evs.csv"
+    },
+    {
+      "episode": 56,
+      "num_evs": 5,
+      "max_solar_kw": 17.017,
+      "avg_price": 0.16803854166666668,
+      "profile_file": "episode_056_profile.csv",
+      "evs_file": "episode_056_evs.csv"
+    },
+    {
+      "episode": 57,
+      "num_evs": 6,
+      "max_solar_kw": 11.611,
+      "avg_price": 0.16733958333333332,
+      "profile_file": "episode_057_profile.csv",
+      "evs_file": "episode_057_evs.csv"
+    },
+    {
+      "episode": 58,
+      "num_evs": 4,
+      "max_solar_kw": 16.725,
+      "avg_price": 0.16829166666666664,
+      "profile_file": "episode_058_profile.csv",
+      "evs_file": "episode_058_evs.csv"
+    },
+    {
+      "episode": 59,
+      "num_evs": 6,
+      "max_solar_kw": 17.47,
+      "avg_price": 0.16803958333333333,
+      "profile_file": "episode_059_profile.csv",
+      "evs_file": "episode_059_evs.csv"
+    },
+    {
+      "episode": 60,
+      "num_evs": 4,
+      "max_solar_kw": 18.308,
+      "avg_price": 0.16723854166666666,
+      "profile_file": "episode_060_profile.csv",
+      "evs_file": "episode_060_evs.csv"
+    },
+    {
+      "episode": 61,
+      "num_evs": 4,
+      "max_solar_kw": 15.732,
+      "avg_price": 0.16754375,
+      "profile_file": "episode_061_profile.csv",
+      "evs_file": "episode_061_evs.csv"
+    },
+    {
+      "episode": 62,
+      "num_evs": 6,
+      "max_solar_kw": 18.192,
+      "avg_price": 0.16846666666666665,
+      "profile_file": "episode_062_profile.csv",
+      "evs_file": "episode_062_evs.csv"
+    },
+    {
+      "episode": 63,
+      "num_evs": 4,
+      "max_solar_kw": 9.97,
+      "avg_price": 0.16780312500000003,
+      "profile_file": "episode_063_profile.csv",
+      "evs_file": "episode_063_evs.csv"
+    },
+    {
+      "episode": 64,
+      "num_evs": 5,
+      "max_solar_kw": 14.409,
+      "avg_price": 0.1673895833333333,
+      "profile_file": "episode_064_profile.csv",
+      "evs_file": "episode_064_evs.csv"
+    },
+    {
+      "episode": 65,
+      "num_evs": 6,
+      "max_solar_kw": 18.248,
+      "avg_price": 0.16831354166666668,
+      "profile_file": "episode_065_profile.csv",
+      "evs_file": "episode_065_evs.csv"
+    },
+    {
+      "episode": 66,
+      "num_evs": 4,
+      "max_solar_kw": 16.647,
+      "avg_price": 0.16856979166666664,
+      "profile_file": "episode_066_profile.csv",
+      "evs_file": "episode_066_evs.csv"
+    },
+    {
+      "episode": 67,
+      "num_evs": 4,
+      "max_solar_kw": 12.694,
+      "avg_price": 0.1677354166666667,
+      "profile_file": "episode_067_profile.csv",
+      "evs_file": "episode_067_evs.csv"
+    },
+    {
+      "episode": 68,
+      "num_evs": 5,
+      "max_solar_kw": 8.585,
+      "avg_price": 0.16644270833333333,
+      "profile_file": "episode_068_profile.csv",
+      "evs_file": "episode_068_evs.csv"
+    },
+    {
+      "episode": 69,
+      "num_evs": 4,
+      "max_solar_kw": 10.558,
+      "avg_price": 0.16689062499999996,
+      "profile_file": "episode_069_profile.csv",
+      "evs_file": "episode_069_evs.csv"
+    },
+    {
+      "episode": 70,
+      "num_evs": 6,
+      "max_solar_kw": 18.347,
+      "avg_price": 0.16723229166666664,
+      "profile_file": "episode_070_profile.csv",
+      "evs_file": "episode_070_evs.csv"
+    },
+    {
+      "episode": 71,
+      "num_evs": 6,
+      "max_solar_kw": 18.64,
+      "avg_price": 0.16792812499999998,
+      "profile_file": "episode_071_profile.csv",
+      "evs_file": "episode_071_evs.csv"
+    },
+    {
+      "episode": 72,
+      "num_evs": 6,
+      "max_solar_kw": 15.602,
+      "avg_price": 0.1671625,
+      "profile_file": "episode_072_profile.csv",
+      "evs_file": "episode_072_evs.csv"
+    },
+    {
+      "episode": 73,
+      "num_evs": 6,
+      "max_solar_kw": 9.89,
+      "avg_price": 0.16765,
+      "profile_file": "episode_073_profile.csv",
+      "evs_file": "episode_073_evs.csv"
+    },
+    {
+      "episode": 74,
+      "num_evs": 5,
+      "max_solar_kw": 18.532,
+      "avg_price": 0.1672010416666667,
+      "profile_file": "episode_074_profile.csv",
+      "evs_file": "episode_074_evs.csv"
+    },
+    {
+      "episode": 75,
+      "num_evs": 4,
+      "max_solar_kw": 18.567,
+      "avg_price": 0.16730104166666668,
+      "profile_file": "episode_075_profile.csv",
+      "evs_file": "episode_075_evs.csv"
+    },
+    {
+      "episode": 76,
+      "num_evs": 5,
+      "max_solar_kw": 16.752,
+      "avg_price": 0.16830625,
+      "profile_file": "episode_076_profile.csv",
+      "evs_file": "episode_076_evs.csv"
+    },
+    {
+      "episode": 77,
+      "num_evs": 4,
+      "max_solar_kw": 7.322,
+      "avg_price": 0.16778749999999998,
+      "profile_file": "episode_077_profile.csv",
+      "evs_file": "episode_077_evs.csv"
+    },
+    {
+      "episode": 78,
+      "num_evs": 4,
+      "max_solar_kw": 17.234,
+      "avg_price": 0.16735416666666666,
+      "profile_file": "episode_078_profile.csv",
+      "evs_file": "episode_078_evs.csv"
+    },
+    {
+      "episode": 79,
+      "num_evs": 4,
+      "max_solar_kw": 11.535,
+      "avg_price": 0.16702604166666668,
+      "profile_file": "episode_079_profile.csv",
+      "evs_file": "episode_079_evs.csv"
+    }
+  ],
+  "test_summary": [
+    {
+      "episode": 0,
+      "num_evs": 6,
+      "max_solar_kw": 18.736,
+      "avg_price": 0.16845625,
+      "profile_file": "episode_000_profile.csv",
+      "evs_file": "episode_000_evs.csv"
+    },
+    {
+      "episode": 1,
+      "num_evs": 6,
+      "max_solar_kw": 5.457,
+      "avg_price": 0.16775625000000002,
+      "profile_file": "episode_001_profile.csv",
+      "evs_file": "episode_001_evs.csv"
+    },
+    {
+      "episode": 2,
+      "num_evs": 5,
+      "max_solar_kw": 14.494,
+      "avg_price": 0.1676416666666667,
+      "profile_file": "episode_002_profile.csv",
+      "evs_file": "episode_002_evs.csv"
+    },
+    {
+      "episode": 3,
+      "num_evs": 4,
+      "max_solar_kw": 18.71,
+      "avg_price": 0.16749270833333332,
+      "profile_file": "episode_003_profile.csv",
+      "evs_file": "episode_003_evs.csv"
+    },
+    {
+      "episode": 4,
+      "num_evs": 5,
+      "max_solar_kw": 18.248,
+      "avg_price": 0.16770416666666665,
+      "profile_file": "episode_004_profile.csv",
+      "evs_file": "episode_004_evs.csv"
+    },
+    {
+      "episode": 5,
+      "num_evs": 4,
+      "max_solar_kw": 15.168,
+      "avg_price": 0.1678625,
+      "profile_file": "episode_005_profile.csv",
+      "evs_file": "episode_005_evs.csv"
+    },
+    {
+      "episode": 6,
+      "num_evs": 6,
+      "max_solar_kw": 18.107,
+      "avg_price": 0.16725416666666668,
+      "profile_file": "episode_006_profile.csv",
+      "evs_file": "episode_006_evs.csv"
+    },
+    {
+      "episode": 7,
+      "num_evs": 4,
+      "max_solar_kw": 18.091,
+      "avg_price": 0.1684041666666667,
+      "profile_file": "episode_007_profile.csv",
+      "evs_file": "episode_007_evs.csv"
+    },
+    {
+      "episode": 8,
+      "num_evs": 6,
+      "max_solar_kw": 16.185,
+      "avg_price": 0.16770625000000003,
+      "profile_file": "episode_008_profile.csv",
+      "evs_file": "episode_008_evs.csv"
+    },
+    {
+      "episode": 9,
+      "num_evs": 5,
+      "max_solar_kw": 18.228,
+      "avg_price": 0.168303125,
+      "profile_file": "episode_009_profile.csv",
+      "evs_file": "episode_009_evs.csv"
+    },
+    {
+      "episode": 10,
+      "num_evs": 6,
+      "max_solar_kw": 18.9,
+      "avg_price": 0.16794166666666666,
+      "profile_file": "episode_010_profile.csv",
+      "evs_file": "episode_010_evs.csv"
+    },
+    {
+      "episode": 11,
+      "num_evs": 5,
+      "max_solar_kw": 9.35,
+      "avg_price": 0.16741666666666666,
+      "profile_file": "episode_011_profile.csv",
+      "evs_file": "episode_011_evs.csv"
+    },
+    {
+      "episode": 12,
+      "num_evs": 6,
+      "max_solar_kw": 16.258,
+      "avg_price": 0.16748958333333333,
+      "profile_file": "episode_012_profile.csv",
+      "evs_file": "episode_012_evs.csv"
+    },
+    {
+      "episode": 13,
+      "num_evs": 4,
+      "max_solar_kw": 16.189,
+      "avg_price": 0.16735104166666667,
+      "profile_file": "episode_013_profile.csv",
+      "evs_file": "episode_013_evs.csv"
+    },
+    {
+      "episode": 14,
+      "num_evs": 5,
+      "max_solar_kw": 18.243,
+      "avg_price": 0.16786875,
+      "profile_file": "episode_014_profile.csv",
+      "evs_file": "episode_014_evs.csv"
+    },
+    {
+      "episode": 15,
+      "num_evs": 4,
+      "max_solar_kw": 17.906,
+      "avg_price": 0.16659166666666667,
+      "profile_file": "episode_015_profile.csv",
+      "evs_file": "episode_015_evs.csv"
+    },
+    {
+      "episode": 16,
+      "num_evs": 4,
+      "max_solar_kw": 17.055,
+      "avg_price": 0.16758854166666667,
+      "profile_file": "episode_016_profile.csv",
+      "evs_file": "episode_016_evs.csv"
+    },
+    {
+      "episode": 17,
+      "num_evs": 4,
+      "max_solar_kw": 17.691,
+      "avg_price": 0.16751562500000003,
+      "profile_file": "episode_017_profile.csv",
+      "evs_file": "episode_017_evs.csv"
+    },
+    {
+      "episode": 18,
+      "num_evs": 5,
+      "max_solar_kw": 6.724,
+      "avg_price": 0.16725729166666667,
+      "profile_file": "episode_018_profile.csv",
+      "evs_file": "episode_018_evs.csv"
+    },
+    {
+      "episode": 19,
+      "num_evs": 4,
+      "max_solar_kw": 15.956,
+      "avg_price": 0.16776875000000002,
+      "profile_file": "episode_019_profile.csv",
+      "evs_file": "episode_019_evs.csv"
+    }
+  ]
+}

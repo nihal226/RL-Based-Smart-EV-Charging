@@ -1,0 +1,6 @@
+ev_id,arrival_step,departure_step,arrival_time_hours,departure_time_hours,initial_soc,target_soc,battery_capacity_kwh,max_charging_power_kw,charging_efficiency
+1,29,49,7.25,12.25,35.0,80.0,40.0,7.0,0.9
+2,37,52,9.25,13.0,29.8,80.0,40.0,7.0,0.9
+3,51,69,12.75,17.25,39.9,80.0,40.0,7.0,0.9
+4,52,77,13.0,19.25,67.9,80.0,40.0,7.0,0.9
+5,65,90,16.25,22.5,61.3,80.0,40.0,7.0,0.9

@@ -1,0 +1,4 @@
+learning_rate,final_100_train_reward,test_avg_cost_usd,test_avg_solar_kwh,test_solar_pct,test_avg_soc_satisfaction_pct,test_avg_unmet_kwh,test_mean_reward
+0.01,45.98,5.7,51.77,67.47,87.92,2.92,35.81
+0.1,54.87,6.85,50.84,64.56,92.08,0.41,43.27
+0.5,45.93,6.99,51.38,65.59,96.75,0.4,43.69
